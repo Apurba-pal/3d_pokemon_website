@@ -3,7 +3,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { FBXLoader } from "three/addons/loaders/FBXLoader.js"; // Import FBXLoader
 import { models } from "./models.js"; // Import models
-import { CharacterControl } from "./CharacterControl.js"; // Import CharacterControl
+import { CharacterControl } from "./characterControl.js"; // Import CharacterControl
 import { loadingScreen, loadingText, loadingBar, updateLoadingScreen, loadingComplete } from "./loadingScreen.js"; // Import loading screen
 import { showPopup, showPokemonPopup, isPopupOpen } from "./popups.js"; // Import popup functions
  
